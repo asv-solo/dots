@@ -1,0 +1,10 @@
+[user]
+	name = brerfox
+	email = brerfox33@gmail.com
+[core]
+	editor = code
+	autocrlf = input
+[merge]
+	tool = vimdiff
+[color]
+	ui = true
