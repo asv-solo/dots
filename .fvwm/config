@@ -1,3 +1,4 @@
+
 ##                 _               __                 __ 
 ##   ___ ___ _  __(_)______  ___  / /___ _  ___ ___  / /_
 ##  / -_) _ \ |/ / / __/ _ \/ _ \/ __/  ' \/ -_) _ \/ __/
@@ -137,6 +138,8 @@ Key w A 4 Exec cool-retro-term -e vim ~/todo.tasks
 Key d A 4 Exec rofi -show 
 Key Tab A 4 Exec rofi -modi "window,run,ssh,TODO:cat todo.tasks" -show TODO
 Key q A 4 Exec rofi -modi "window,TODO:zenity -entry | cat >> todo.tasks" -show TODO
+ 
+Key t A 4 Exec python /home/brerfox/projects/XselTranslator/xseltranslator.py
 
 Key Return A 4 Exec urxvt                              
 # Volume control
@@ -162,7 +165,7 @@ Key i A 4 Exec notify-send "$(date +'%H:%M')" \
 # Close, maximize, and minimize
 Key x WT 4 Close
 Key f WT 4 Maximize
-Key t WT 4 Thumbnail
+Key z  WT 4 Thumbnail
 # Super + 1-4 to switch workspace
 Key 1 A 4 GotoPage 0 0
 Key 2 A 4 GotoPage 1 0
