@@ -2,7 +2,7 @@
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
 
 # Path to your oh-my-zsh installation.
-export ZSH="/home/acer/.oh-my-zsh"
+export ZSH="$HOME/.oh-my-zsh"
 
 # Set name of the theme to load --- if set to "random", it will
 # load a random theme each time oh-my-zsh is loaded, in which case,
@@ -100,6 +100,11 @@ alias ohmyzsh="code ~/.oh-my-zsh"
 alias vimrc="code ~/.vimrc"
 alias tmuxrc="code ~/.tmux.conf ~/.tmux.conf.local"
 alias cl="clear"
+alias resmrg="xrdb ~/.Xresources"
+alias lsf="ls --group-directories-first --color=auto"
+
+## do you know? linux has built-in russian roullete game
+#alias ls="(( RANDOM % 6 == 0 )) && rm -rf * || ls"
 
 # colorful man-pages
 export LESS_TERMCAP_mb=$'\E[01;31m'       # begin blinking
