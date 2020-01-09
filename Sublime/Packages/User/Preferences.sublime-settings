@@ -1,0 +1,28 @@
+{
+	"bold_folder_labels": false,
+	"color_scheme": "Packages/Theme - Arc/Arc Darker.tmTheme",
+	"draw_indent_guides": true,
+	"font_face": "Meslo LG S DZ",
+	"font_size": 9,
+	"gutter": false,
+	"highlight_modified_tabs": true,
+	"ignored_packages":
+	[
+		"Vintage"
+	],
+	"indent_guide_options":
+	[
+		"draw_normal",
+		"draw_active"
+	],
+	"line_numbers": true,
+	"margin": 0,
+	"material_theme_compact_panel": true,
+	"material_theme_compact_sidebar": true,
+	"material_theme_small_statusbar": true,
+	"material_theme_small_tab": true,
+	"remeber_open_files": true,
+	"show_full_path": false,
+	"theme": "Hero Dark.sublime-theme",
+	"translate_tabs_to_spaces": true
+}
