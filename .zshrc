@@ -102,6 +102,7 @@ alias tmuxrc="code ~/.tmux.conf ~/.tmux.conf.local"
 alias cl="clear"
 alias resmrg="xrdb ~/.Xresources"
 alias lsf="ls --group-directories-first --color=auto"
+alias off="shutdown now"
 
 ## do you know? linux has built-in russian roullete game
 #alias ls="(( RANDOM % 6 == 0 )) && rm -rf * || ls"

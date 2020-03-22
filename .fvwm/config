@@ -33,6 +33,8 @@ AddToFunc   StartFunction
 # + I Exec nitrogen  --restore; sleep 1;
 + I Exec wal -i ~/wallp 
 
+#+ I Exec pulseaudio --start
+
 # Compton start
 + I Exec compton -b
 

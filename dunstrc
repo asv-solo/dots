@@ -139,8 +139,7 @@ separator_color = frame
 # Print a notification on startup.
 # This is mainly for error detection, since dbus (re-)starts dunst
 # automatically after a crash.
-startup_notification = false
-
+startup_notification = no
 # dmenu path.
 dmenu = /usr/bin/dmenu -p dunst:
 
